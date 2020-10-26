@@ -1,0 +1,8 @@
+all:
+  children:
+   k8s_pis:
+     hosts:
+       k8s_pi1.netz.anders-hamburg.de:
+       k8s_pi2.netz.anders-hamburg.de:
+       k8s_pi3.netz.anders-hamburg.de:
+       k8s_pi4.netz.anders-hamburg.de:

@@ -1,0 +1,8 @@
+- name: setup pis
+  hosts: k8s_pis
+  roles:
+    - ssh-keys
+  tasks:
+    - name: test
+      debug:
+        msg: "done"
